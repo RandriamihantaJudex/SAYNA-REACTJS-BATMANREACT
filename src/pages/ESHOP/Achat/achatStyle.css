@@ -1,0 +1,157 @@
+@font-face {
+    font-family: rajdhani;
+    src: url('./../../../../public/assets/fonts/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url('./../../../../public/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+.Achat,.achatMain{
+    width: 90%;
+    margin-left: 5%;
+}
+.achatMain{
+    margin-top: 70px;
+}
+.Achat div{
+    margin-top: 10px;
+}
+.ComponentAchat,.ComponentAchatAvec{
+    width: 43%;
+}
+.paragrapheLine{
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: solid white 1px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+.divRadio{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.divRadio *{
+    margin: 0 10px;
+}
+.divRadio img{
+    height: 40px;
+    width: 70px;
+}
+.divRadio div{
+    width: auto;
+}
+.divRadio div p{
+    width: 200px;
+}
+.ComponentAchat form{
+    width: 100%;
+}
+
+.divide2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.divide2 div{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.divide2 div input,.ComponentAchat form input,.ComponentAchat form select{
+    height: 33px;
+    padding-left: 5%;
+    background:none ;
+    border: solid white 2px;
+}
+.divide2 div input{
+    padding-left: 10%;
+}
+.divide2 div label,.ComponentAchat form label{
+    margin-bottom: 10px;
+}
+.ComponentAchat form select{
+margin-bottom: 15px;
+caret-color: red;
+/* background-color: red; */
+}
+.payementMode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.logoMaster{
+display: flex;
+}
+.logoMaster img{
+    height: 23px;
+    width: 23px;
+    margin: 0 7px;
+}
+
+.formDome div input[type='checkbox']{
+margin-top:-12px ;
+}
+
+.buttonContent{
+    display: flex;
+    justify-content: center;
+}
+.buttonContent button{
+    margin-top: 50px;
+    background: linear-gradient(60deg,rgb(2, 102, 141) 0%,teal 100%);
+    padding: 14px 20px;
+    border: none;
+    width: auto;
+    margin-bottom: 100px;
+}
+
+
+
+
+/*    =================achat avec style ================*/
+
+
+.recipiant{
+    padding: 5%;
+    border: solid white 1px;
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 15px;
+     width: 90%;
+}
+.recipiant .modif{
+    color: teal;
+}
+.recipiant .titre{
+    margin-top: -15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.recipiant p{
+    margin-bottom: 5px;
+    display: flex;
+}
+.ComponentAchatAvec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ComponentAchatAvec button{
+    margin-top: 50px;
+    background: linear-gradient(60deg,rgb(2, 22, 139) 0%,rgb(63, 7, 7) 100%);
+    padding: 14px 20px;
+    border: none;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    font-family: Space_Grotesk;
+    letter-spacing: 1px;
+}

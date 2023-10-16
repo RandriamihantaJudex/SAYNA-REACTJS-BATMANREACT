@@ -1,0 +1,119 @@
+@font-face {
+    font-family: rajdhani;
+    src: url('./../../../../public/assets/fonts/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url('./../../../../public/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+.Compte{
+    width: 90%;
+    padding: 0 5% 0 5%;
+    height: 100vh;
+    background: url('../../../assets/bg/bg_2.png');
+    background-position: center;
+}
+.mainPresentation{
+    height: 70%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+.mainPresentation .ident{
+   font-size: 38px;
+   font-family: rajdhani;
+   font-weight:900;
+}
+.sectionDuo{
+    margin-top: 50px;
+    width: 80%;
+    margin-left:10%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+
+}
+.sectionDuo .navigationSection{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionDuo .navigationSection p{
+    cursor: pointer;
+    height: 200px;
+    margin: 10px 0px;
+}
+.reUseButton{
+    margin-top: 20px;
+    width: 100%;
+    padding:  10px 0;
+    border-radius: 1px;
+    border: none;
+    background: linear-gradient(90deg,rgb(62, 202, 212) 0%,rgba(58, 116, 143, 0.664) 100%);
+    font-family: rajdhani;
+    font-size: 17px;
+}
+.contentUser{
+    width: 70%;
+    height: auto;
+flex-direction: column;
+align-items: center;
+    display: flex;
+}
+
+.ContenuCompte{
+    width: 80%;
+    padding: 0 5% 0 5%;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+    margin-bottom:70px ;
+}
+.ContenuCompte p{
+    margin: 13px 0;
+    font-size: 13px;
+}
+.ContenuCompte .titreCompte{
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-family: rajdhani;
+    margin-bottom: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-bottom: solid white 1px;
+}
+.reUseButton2{
+    margin-top: 20px;
+    width: 200px;
+    padding:  10px 0;
+    border-radius: 1px;
+    border: none;
+    background: linear-gradient(90deg,rgb(62, 202, 212) 0%,rgba(58, 116, 143, 0.664) 100%);
+    font-family: rajdhani;
+    font-size: 17px;
+}
+.ContenuCompte form div{
+    display: flex;
+    margin: 5px 30px ;
+}
+.ContenuCompte form div input{
+    margin-right: 10px;
+}
+.ContenuCompte .monForm{
+    width: 100%;
+}
+.ContenuCompte .monForm div{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.ContenuCompte .monForm div input{
+    margin-left: 20px;
+    height: 28px;
+    border: solid white 1px;
+    background: none;
+}
+.ContenuCompte .monForm div p{
+    width: auto;
+}

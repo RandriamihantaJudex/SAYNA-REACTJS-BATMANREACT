@@ -1,0 +1,9 @@
+body{
+  background-color: black;
+}
+span{
+cursor: pointer;
+}
+span:hover{
+  font-weight: 700;
+}

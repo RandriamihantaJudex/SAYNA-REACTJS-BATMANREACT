@@ -1,0 +1,71 @@
+ .loginComponent{
+    background-repeat: no-repeat;
+    background-size: 130%;
+ }
+ .CarteInscription{
+    height: auto;
+    padding: 10%;
+    background: linear-gradient(120deg,rgba(211, 211, 212, 0.726) 0%,rgba(201, 201, 201, 0.445) 100%);
+ }
+ .inputNormal{
+    width: 300px;
+    background: none;
+    border: solid white 1px;
+    border-radius: 1px;
+    padding-left: 10px;
+    height: 28px;
+    margin: 10px 0;
+ }
+ .inputNormal p{
+    background-color: red;
+ }
+.inputNew{
+    width: 310px;
+    display: flex;
+    height: 28px;
+}
+.CarteInscription .myP{
+    width: max-content;
+    margin: 10px 0;
+}
+.inputNew{
+    height: 30px;
+    border: solid white 1px;
+    display: flex;
+    align-items: center;
+}
+.inputNew input{
+    background: none;
+}
+.CarteInscription .long{
+    margin: 10px 0;
+    width: 300px;
+    font-size: 12px;
+}
+.CarteInscription .iconsDiv img{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.CarteInscription .ligneDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CarteInscription .ligneDiv .ligneWhite{
+height: 1px;
+width: 50%;
+background-color: white;
+}
+.CarteInscription .long{
+    text-align: left;
+}
+.CarteInscription button{
+    width: 310px;
+    margin-bottom: 10px;
+    background: linear-gradient(60deg,rgb(60, 97, 218) 0%,rgb(110, 181, 240) 100%);
+    padding: 15px 0;
+    border-radius: 1px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

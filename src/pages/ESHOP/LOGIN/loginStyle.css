@@ -1,0 +1,120 @@
+@font-face {
+    font-family: rajdhani;
+    src: url('./../../../../public/assets/fonts/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url('./../../../../public/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+.allMight{
+    width: 100%;
+}
+.loginComponent{
+    height: auto;
+    padding: 0 5%;
+    width: 90%;
+    background: url('../../../../public/assets/bg/bg_3.png');
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.connexionContent,.MainConnectionForm{
+    height: auto;
+    width: auto;
+    padding: 3%;
+}
+.connexionContent{
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 2% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(120deg,rgb(14, 17, 22) 0%,rgb(146, 226, 240) 150%);
+}
+.MainConnectionForm{
+padding: 30px;
+border-radius: 7px;
+background: linear-gradient(120deg,rgb(119, 119, 119) 0%,rgba(128, 128, 128, 0.233) 100%);
+}
+.coteAcote{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 320px;
+    align-items: center;
+    border: solid white 1px;
+    padding-left: 3%;
+    border-radius: 2px;
+}
+.InpuWithButton{
+    margin-bottom: 10px;
+    width: auto;
+}
+.InpuWithButton{
+    width: auto;
+    width: fit-content;
+}
+.coteAcote img{
+    height: 20px;
+    width: 20px;
+}
+.coteAcote input{
+    margin-left: 3%;
+    height: 99%;
+    border: none;
+    background: none;
+    width: 100%;
+}
+.mdpOublie {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.mdpOublie p{
+    font-size: 12px;
+}
+.ligneDroite{
+    height: 1px;
+    width: 55%;
+    background-color: white;
+}
+.MainConnectionForm button{
+    margin-bottom: 15px;
+    width: 330px;
+    height: 40px;
+    border: none;
+    font-family: rajdhani;
+    font-size: 17px;
+    font-weight: 800;
+    background: linear-gradient(120deg,rgb(42, 117, 179) 0%,rgba(99, 191, 245, 0.233) 100%);
+}
+.iconContentForm{
+    display: flex;
+}
+.iconContentForm img{
+    margin-right: 20px;
+    height: 23px;
+    width: 30px;
+}
+.degrade{
+    height: 100px;
+    width: 111%;
+     background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgba(255, 0, 0, 0) 100%);
+}
+.signLink{
+    margin-bottom: 50px;
+}
+.connexionContent h3{
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+.connexionContent p{
+    font-size: 12px;
+    letter-spacing: 1px;
+}

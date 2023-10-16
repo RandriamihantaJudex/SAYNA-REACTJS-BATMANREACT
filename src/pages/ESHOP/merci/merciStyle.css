@@ -1,0 +1,73 @@
+.merci{
+    width: 90%;
+    margin-left: 5%;
+}
+.mainThanks{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 80px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainThanks p{
+    width: 100%;
+}
+.circle{
+    margin-top: 50px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: url('../../../../public/assets/bg/bg_4.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+.backGround{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: -3000px;
+    background-image: radial-gradient(circle at center,rgba(27, 26, 26, 0.315),black);
+}
+.backGround p{
+    text-align: center;
+}
+.backGround .longText{
+    width: 70%;
+    font-size: 13px;
+    padding: 20px 0;
+}
+.backGround .button2{
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.button2 button{
+    height: 100%;
+    padding: 0 45px;
+    margin: 0 15px;
+    font-family: Space_Grotesk;
+    letter-spacing: 1px;
+    border: none;
+    height: 40px;
+}
+.button2 .btn1{
+    background: none;
+    border: solid teal 2px;
+}
+.button2 .btn2{
+    background-color: teal;
+}
+.backGround .merciP{
+    margin-top: -350px;
+    font-size: 20px;
+}

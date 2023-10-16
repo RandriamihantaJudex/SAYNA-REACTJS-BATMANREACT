@@ -1,0 +1,259 @@
+@font-face {
+    font-family: rajdhani;
+    src: url('./../../../../public/assets/fonts/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url('./../../../../public/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+.connection,.main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.navElement{
+    margin-top: 70px;
+}
+.grid{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+.Authentification{
+    width: 45%;
+    margin-top: 50px ;
+    margin-bottom: 60px;
+}
+.ticketCommande{
+    width: 50%;
+    margin-top: -50px;
+    /* display: flex;
+    justify-content: center; */
+}
+.ticketCommande div{
+    width: 100%;
+}
+.Authentification p{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 12px;
+    border-bottom: solid white 1px;
+}
+.logIn{
+    margin-top: 35px;
+    background: linear-gradient(180deg,rgba(35, 102, 102, 0.534) 0%,rgba(32, 82, 82, 0) 100%); 
+    width: 100%;
+    border-radius: 15px;
+}
+.switchMode{
+    display: flex;
+}
+.switchMode button{
+    padding: 15px 20px ;
+    width: 50%;
+    background: none;
+    border: none;
+    font-family: rajdhani;
+    font-size: 20px;
+}
+.logIn form{
+    width: 86%;
+    margin-left: 7%;
+}
+.logIn form *{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.logIn form input{
+    height: 38px;
+    width: 94%;
+    padding-left: 5%;
+    background: none;
+    border: solid white 2px;
+}
+.logIn .inputNew{
+    width: 99%;
+    height: 38px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid white 2px;
+    display: flex;
+    flex-direction: row;
+}
+.inputNew .myInput{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: none;
+}
+.inputNew img{
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    padding: 0 15px;
+}
+form .myP{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    padding-bottom: 0px;
+    border:none;
+}
+form .terme{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+form .terme img{
+    margin: 0;
+}
+.terme .PTerme{
+    font-size: 13px;
+    width: 85%;
+    border: none;
+    font-weight: 100;
+}
+.validerForm{
+    width: 100%;
+    padding: 15px 0;
+    background: linear-gradient(60deg,rgb(2, 102, 141) 0%,teal 100%);
+    border: none;
+    font-family: rajdhani;
+    font-size: 20px;
+    font-weight: 900;
+}
+form .ligneDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+form div .Pconnect{
+    font-size: 13px;
+    width: 85%;
+    border: none;
+    font-weight: 100;
+}
+form div .ligneWhite{
+    padding: 0;
+    margin: 0;
+}
+form .iconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+form .iconsDiv img{
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.switchMode .btnCourbe{
+    border-right:solid teal 2px ;
+    border-radius: 0 7px 0 0;
+}
+.switchMode .btnCourbe2 ,.switchMode .btnCourbe3{
+    border-bottom:solid teal 2px ;
+}
+
+
+
+.switchMode .btnCourbe4{
+    border-left:solid teal 2px ;
+    border-radius:  7px 0 0 0;
+}
+.Authentification .divAchat{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid white 1px;
+}
+.Authentification .divAchat p{
+    font-size: 20px;
+    border: none;
+}
+.Authentification .divAchat img{
+    height: 20px;
+    width: 25px;
+}
+.Authentification .divAchat h4{
+    offset-rotate: 90;
+}
+.Authentification .labelSaisie{
+    margin-top: 25px;
+    border: none;
+    font-size: 16px;
+    font-size: 100;
+}
+
+.FormSansInscription{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FormSansInscription .deuxPartie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.FormSansInscription .deuxPartie div{
+    margin-top: 15px;
+}
+.FormSansInscription label{
+    width: 100%;
+}
+.FormSansInscription .deuxPartie div{
+width: 48%;
+display: flex;
+flex-direction: column;
+}
+.FormSansInscription .deuxPartie div input{
+    height: 28px;
+    margin-top:10px ;
+    border:solid white 1px;
+    background: none;
+    width: 95%;
+    padding-left: 5%;
+}
+.FormSansInscription label{
+    margin-top: 10px;
+}
+.FormSansInscription input{
+    height: 28px;
+    margin-top:10px ;
+    border:solid white 1px;
+    background: none;
+    width: 95%;
+    padding-left: 5%;
+}
+.CheckBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.CheckBox .highFive{
+    width: 100%;
+    width: auto;
+    margin-right: 15px;
+}
+.submitButton{
+    margin-top: 50px;
+    background: linear-gradient(60deg,rgb(2, 102, 141) 0%,teal 100%);
+    padding: 14px 14px;
+    border: none;
+    width: auto;
+}

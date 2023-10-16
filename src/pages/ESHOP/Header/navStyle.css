@@ -1,0 +1,21 @@
+.navBar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.781) 0%,rgba(0, 0, 0, 0.329) 50%,rgba(0, 0, 0, 0) 100%);
+}
+ul{
+    margin-right: 70px;
+}
+ul a{
+color: white;
+text-decoration: none;
+margin-left: 25px;
+}
+.navBar img{
+    height: 30px;
+    width: 90px;
+    margin-left: 70px;
+} 

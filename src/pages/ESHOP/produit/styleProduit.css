@@ -1,0 +1,327 @@
+@font-face {
+    font-family: rajdhani;
+    src: url('./../../../../public/assets/fonts/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url('./../../../../public/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+h1,h2{
+    font-family: Space_Grotesk;
+}
+p{
+    text-align: justify;
+}
+h3{
+    font-family:rajdhani ;
+}
+.component{
+    height: auto;
+    width: 85%;
+    margin-left: 7.5%;
+}
+.infoNavigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
+.infoProduit{
+    width: 97%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid white 1px;
+}
+.imageSuggestion{
+    height: 300px;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+.imageSuggestion img{
+    width: 85%;
+    height: 100%;
+    border: solid white 1px;
+}
+.similaire{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.similaire img {
+    margin-bottom: 10px;
+    width: 80%;
+    height: 50px;
+}
+.productInformation{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.star{
+    color: white;
+    height: 100px;
+    width: 98%;
+    border-bottom: solid white 2px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+.star .nomArticle{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.commentStar{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.commentStar div{
+    display: flex;
+}
+.iconEtoile{
+    height: 20px;
+    width: 20px;
+    border: solid white 1px;
+    margin-right: 3px;
+}
+.commentStar p{
+    margin-left: 10px;
+}
+.commentStar div img{
+    margin: 0;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.sectionPrix{
+    height: 70px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.sectionPrix div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.sectionPrix div p{
+    margin-right: 15px;
+}
+.sectionPrix div button{
+    border: solid white 1px;
+    background: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 12px;
+}
+
+.actionButton{
+    height: 90px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid white 2px;
+}
+.add{
+    border: none;
+    background-color: rgb(0, 119, 255);
+    border-radius: 12px;
+    padding: 10px 22px;
+    color: white;
+    margin-right: 20px;
+}
+.love{
+    background: none;
+    border: solid red 1.5px;
+    padding: 10px 20px;
+    color: red;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.love:hover{
+border: none;
+background-color: red;
+color: white;
+}
+.description{
+    margin-top: 20px;
+    color: white;
+    width: 98%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.description p{
+    width: 100%;
+    text-align: justify;
+}
+.reUse{
+    width: 98%;
+    border-bottom: solid white 2px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.reUse *{
+    margin-top: 10px;
+}
+.userComment{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userComment div{
+    display: flex;
+}
+.noeud{
+    display: flex;
+    align-items: center;
+}
+.noeud div{
+    margin: 0;
+    width: 100px;
+}
+.noeud div img{
+margin: 0;
+margin-bottom: 3px;
+padding: 0;
+
+}
+.noeud p{
+    margin: 0;
+    margin-left: 10px;
+} 
+.iconEtoile{
+    margin-top: 0;
+}
+.pComment{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.userName{
+    color: teal;
+    letter-spacing:1px;
+}
+.noeud div div{
+    margin-right: 3px;
+}
+.navigation2{
+    height: 100px;
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+.navigation2 div{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+.navigation2 div p{
+    margin: 0 10px;
+}
+.navigation2 div img{
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+.ligne{
+    text-decoration: underline;
+}
+
+
+
+
+.ProduitSimilaire {
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+}
+.ProduitSimilaire p{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.componentProduct{
+    height:350px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cubeSimilaire{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.carteSimilaire{
+    height: 95%;
+    border: solid white 1px;
+    width: 300px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.conteneurScrool{
+    height: 100%;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.carteSimilaire div{
+    display: flex;
+}
+.carteSimilaire img{
+    height: 75%;
+    width: 90%;
+}
+.carteSimilaire p{
+    height: auto;
+    font-family: rajdhani;
+    font-size: 20px;
+}
+.carteSimilaire *{
+    margin: 0;
+    padding: 0;
+}
+.carteSimilaire div p{
+    font-size: 24px;
+}
+.carteSimilaire .barree{
+    text-decoration:line-through;
+    color: grey;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.gauche{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: rajdhani;
+    src: url('./../../../../public/assets/fonts/rajdhani/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: Space_Grotesk;
+    src: url('./../../../../public/assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+.commande,.mainComponent{
+    width: 90%;
+    margin-left: 5%;
+}
+.mainComponent{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainComponent p{
+    width: 100%;
+}
+.mainComponent p span{
+    cursor: pointer;
+}
+.ticket{
+    margin-top: 50px;
+    height: auto;
+    width: 75%;
+    padding: 3% 3%;
+    background: linear-gradient(180deg,rgba(35, 102, 102, 0.534) 0%,rgba(32, 82, 82, 0) 100%);
+}
+.titreC{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.titreC button{
+    background:none;
+    border: none;
+}
+.commandItem{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.commandItem img{
+    height: 100%;
+    width: 130px;
+}
+.commandItem div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.commandItem div h1{
+    margin: 50;
+    font-size: 25px;
+}
+.commandItem div p{
+    color: rgb(184, 183, 183);
+}
+.commandItem div h1 span{
+    font-size: 13px;
+}
+
+.ReUse .Use{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    border-bottom: solid white 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.ReUse .Use input{
+    height: 35px;
+    width: 220px;
+    border: solid rgb(163, 162, 162) 1px;
+    background-color: white;
+    padding-left: 10px;
+    color: black;
+}
+.ReUse .Use input::placeholder{
+    color: black;
+}
+.ReUse .Use button{
+    height: 36px;
+    width: 150px;
+    border :2px solid teal;
+    background:none;
+    margin-left: 25px;
+}
+.Use div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.actionButton2{
+    margin-top: 100px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-bottom: 40px;
+    
+}
+.actionButton2 button{
+    height: 100%;
+    padding: 0 45px;
+    margin: 0 15px;
+    font-family: Space_Grotesk;
+    letter-spacing: 1px;
+    border: none;
+}
+.actionButton2 .btn1{
+    background: none;
+    border: solid teal 2px;
+}
+.actionButton2 .btn2{
+    background-color: teal;
+}
+.non div{
+    margin-top: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
