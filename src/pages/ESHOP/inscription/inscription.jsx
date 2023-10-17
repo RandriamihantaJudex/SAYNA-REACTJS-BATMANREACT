@@ -42,7 +42,7 @@ const CreationProvider = ({ children }) => {
             userData.addNewUser(userInfo)
             userData.setActualUser(userInfo)
             setUserInfo({})
-            allerA('/E-SHOP/compt')
+            allerA('/E-SHOP/compte')
           }
           else{
             console.log('No same');

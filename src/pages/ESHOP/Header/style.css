@@ -36,7 +36,7 @@ label{
 }
 .downArrow{
     height: 100px;
-    background-color: #0a0a0a;
+    background-color: #000000;
     width: 100%;
     display: flex;
     align-items: center;

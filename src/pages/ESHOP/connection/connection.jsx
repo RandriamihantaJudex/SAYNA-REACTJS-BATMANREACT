@@ -152,10 +152,11 @@ const UserProvider = ({ children }) => {
       if (!isEmpty) {
         if (SignIn.password === SignIn.passwordConfirm) {
           globaldata.addNewUser(SignIn)
-          globaldata.addSetOther("fdfdfdf")
-          console.log(globaldata.other);
-          console.log(SignIn);
-          // navigerVers("/E-SHOP/achat")
+          // globaldata.addSetOther("fdfdfdf")
+          // console.log(globaldata.other);
+          // console.log(SignIn);
+           navigerVers("/E-SHOP/achat")
+          // globaldata.setittest(SignIn)
         } else {
           console.log("mot de passe different");
         }
@@ -163,7 +164,7 @@ const UserProvider = ({ children }) => {
         console.log("Veuillez remplir tout les champs");
       }
     } else {
-      console.log();
+      console.log("cas non repertorie");
     }
   };
 

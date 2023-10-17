@@ -121,7 +121,8 @@ const ComponentAchatAvec=()=>{
     const navigerVers=(lien)=>{
         naviger(lien)
     }
-    let taille=Object.keys(globaData.other).length
+    console.log(globaData.actualUser);
+    let taille=Object.keys(globaData.actualUser).length
     console.log(taille);
     return taille===0?
     <div className="ComponentAchatAvec">
@@ -145,22 +146,22 @@ const ComponentAchatAvec=()=>{
 
            <button onClick={()=>navigerVers('/E-SHOP/merci')}>VALIDER ET PAYER {globaData.totale}€</button>
     </div>:<div className="ComponentAchatAvec">
-           <Recipiant titre={`${globaData.other['Nom']} ${globaData.other['Prenom']}`}>
-            <p>{globaData.other['Adresse']}</p>
-            <p>{`${globaData.other['CodePostal']} ${globaData.other['Ville']}`}</p>
-            <p>{globaData.other['Pays']}</p>
-            <p>{globaData.other['Telephone']}</p>
+           <Recipiant titre={`${globaData.actualUser['Nom']} ${globaData.actualUser['Prenom']}`}>
+            <p>{globaData.actualUser['Adresse']}</p>
+            <p>{`${globaData.actualUser['CodePostal']} ${globaData.actualUser['Ville']}`}</p>
+            <p>{globaData.actualUser['Pays']}</p>
+            <p>{globaData.actualUser['Telephone']}</p>
            </Recipiant>
            <Recipiant titre={'Méthode de livraison'}>
             <p>Chronopost - livraison à domicile</p>
-            <p>{globaData.other['Adresse']}</p>
-            <p>{`${globaData.other['CodePostal']} ${globaData.other['Ville']}`}</p>
-            <p>{globaData.other['Pays']}</p>
+            <p>{globaData.actualUser['Adresse']}</p>
+            <p>{`${globaData.actualUser['CodePostal']} ${globaData.actualUser['Ville']}`}</p>
+            <p>{globaData.actualUser['Pays']}</p>
            </Recipiant>
            <Recipiant titre={'Moyen de paiement'}>
             <p>Visa......0000 03/26</p>
     
-            <p>{`${globaData.other['Nom']} ${globaData.other['Prenom']}`}</p>
+            <p>{`${globaData.actualUser['Nom']} ${globaData.actualUser['Prenom']}`}</p>
            </Recipiant>
 
            <button onClick={()=>navigerVers('/E-SHOP/merci')}>VALIDER ET PAYER {globaData.totale}€</button>

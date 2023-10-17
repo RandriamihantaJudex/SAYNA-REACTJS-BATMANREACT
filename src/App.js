@@ -42,6 +42,7 @@ const PanierProvider = ({ children }) => {
 
 
   const [other,setOther]=useState()
+  const [ittest,setittest]=useState({})
   const [actualUser,setActualUser]=useState({})
   const [usersList,SetUsersList]=useState([
     {nom:'judex',prenom:'tchad',identifiant:'judex@gmail.com',password:'judexjudex'},
@@ -96,7 +97,7 @@ const PanierProvider = ({ children }) => {
     setPanier(newPanier);
   };
   return (
-    <panierContext.Provider value={{ panier, addPanier,deletePanier,modPanier,setPanier,SetUsersList,totale ,setActualUser,actualUser,usersList,addNewUser,deleteUser,other,setOther,addSetOther}}>
+    <panierContext.Provider value={{ ittest,setittest,panier, addPanier,deletePanier,modPanier,setPanier,SetUsersList,totale ,setActualUser,actualUser,usersList,addNewUser,deleteUser,other,setOther,addSetOther}}>
       {children}
     </panierContext.Provider>
   );
